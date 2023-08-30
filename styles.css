@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.startButton {
+  font-size: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-number {
+  width: 50px;
+}
+
+.question {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.operator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.operator label {
+  margin-right: 10px;
+}
+
+#answerButton {
+  margin-top: 10px;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+#resultText {
+  display: block;
+  margin-top: 20px;
+}

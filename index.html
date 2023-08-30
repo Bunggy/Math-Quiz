@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Math Quiz</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <button id="startButton">เริ่ม</button>
+    <h1>เกมคณิตศาสตร์</h1>
+    <div id="score">0/0</div>
+  </div>
+<div class="question">
+  <input type="number" id="num1" class="input-number" disabled>
+  <label id="display">+</label>
+  <input type="number" id="num2" class="input-number" disabled>
+  <label class="equal">=</label>
+  <input type="number" id="userAnswer" class="input-number">
+  <div class="operator">
+    <input type="radio" name="operator" id="add" value="add" checked>
+    <label for="add">+</label>
+    <br>
+    
+    <input type="radio" name="operator" id="subtract" value="subtract">
+    <label for="subtract">-</label>
+    
+    <input type="radio" name="operator" id="multiply" value="multiply">
+    <label for="multiply">x</label>
+    
+    <input type="radio" name="operator" id="divide" value="divide">
+    <label for="divide">/</label>
+    
+  </div>
+  <button id="answerButton">ตอบ</button>
+  <p id="resultText"></p>
+</div>
+    
+
+</div>
+<script src="math.js"></script>
+</body>
+</html>
